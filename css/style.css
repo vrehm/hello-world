@@ -1,0 +1,74 @@
+body {
+  font-family: 'Roboto Slab'; serif;
+  color: #fff;
+  background-color: #109b83;
+}
+
+h1 {
+  font-size: 500%;
+}
+
+h2 {
+  color: #000;
+}
+
+#logo h1 {
+  font-family: 'Amatic SC'; sans-serif;
+  color:#109b83;
+  font-size: 500%;
+  padding-left: 25px;
+}
+
+#logo {
+  background-color: #fff;
+  height: 115px;
+}
+
+a {
+  color: #062149;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #196FFF;
+  text-decoration: underline;
+}
+
+.ul-fa li {
+  list-style: none;
+}
+
+.ul-fa li:before {
+  font-family: 'FontAwesome';
+  content: '\f058';
+  margin:0 5px 0 -20px;
+  color: #black;
+}
+
+.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+
+.navbar {
+  font-family: 'Open Sans'; sans-serif;
+  color: rgb(50,50,50);
+  background-color: #F5FDFE;
+}
+
+/* MailChimp Form Embed Code - Slim - 08/17/2011 */
+#mc_embed_signup form {background: #109b83; display:block; position:relative;}
+#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup input {border:0px solid #999;}
+#mc_embed_signup .button {clear:both; background-color: #fff; border: 0 none; border-radius:0px; color: #109b83; cursor: pointer; display: inline-block; height: 36px; line-height: 32px; margin: 0; padding:0; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup .button:hover {background-color:#109b83; color:#fff;border-style: solid;border-width: 1px; border-color: #fff}
+#mc_embed_signup .small-meta {font-size: 11px;}
+#mc_embed_signup .nowrap {white-space:nowrap;}     
+#mc_embed_signup .clear {clear:none; display:inline;}
+
+#mc_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+#mc_embed_signup input.email {display:inline-block; padding:8px 0; margin:0; text-indent:10px; width:0; min-width:130px;color: #109b83}
+#mc_embed_signup input.button {display:inline-block; margin-left:15px; width:0; min-width:90px;}
+
+#mc_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
+#mc_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #mce-error-response {display:none;}
+#mc_embed_signup #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
